@@ -1,4 +1,3 @@
-// Fade-in effect
 document.addEventListener("DOMContentLoaded", () => {
     const card = document.querySelector(".card");
     card.style.opacity = "0";
@@ -11,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 200);
 });
 
-// Ripple effect
 const buttons = document.querySelectorAll(".btn");
 
 buttons.forEach(btn => {
